@@ -94,7 +94,7 @@ class DashboardController extends Controller
         if($request->input('password')){
             $user->password = Hash::make($request->input('password')); 
         }
-
+        
         $user->update();
 
         return response(['message'=>'User successfully updated'], 200);
