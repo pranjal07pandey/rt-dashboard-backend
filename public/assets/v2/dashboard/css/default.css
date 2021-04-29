@@ -1,0 +1,286 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*====================sidebar=====================*/
+.sidebar{
+    width: 320px;
+    height: 100vh;
+    background: #000000;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sidebar .header{
+    padding: 21px 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00000038;
+    font-weight: 500;
+    font-size: 17px;
+}
+.sidebar .header img{
+    position: absolute;
+    top: 17px;
+    left: 18px;
+    width: 20px;
+}
+
+.sidebar .profile .profileWrapper{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    background-position: center;
+    background-size: cover;
+    float:left;
+}
+.sidebar .profile .profileDetails{
+    padding-top: 22px;
+    color: #c1c1c1;
+}
+.sidebar .profile .profileDetails strong{
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+.sidebar .profile .profileDetails span{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.sidebar .nav{
+
+}
+.sidebar .nav ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.sidebar .nav>ul>li{
+    padding: 10px 10px 0px 10px;
+    color: #fff;
+    /*border-bottom: 1px solid #333;*/
+    font-size: 14px;
+}
+.sidebar .nav ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 15px 10px 15px 45px;
+    font-weight: 300;
+    transition: all .15s ease-in;
+    position: relative;
+}
+.sidebar .nav ul li a:hover{
+    background: #01b1b9;
+    border-radius: 5px;
+}
+.sidebar .nav ul li a.active{
+    background: #317180;
+    padding: 15px 10px 15px 45px;
+    border-radius: 5px;
+}
+.sidebar .nav ul li a i{
+    font-size: 18px;
+    margin-right: 5px;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
+.treeview .treeview-menu{
+    display: none;
+}
+/*==================content wrapper==============*/
+.content-wrapper{
+    width: calc(100% - 320px);
+    float:right;
+    position: relative;
+    background: hsla(240,7%,81%,.15);
+    height: 100vh;
+    overflow: scroll;
+}
+
+.navbar{
+    background: #fff;
+    padding: 13px 20px;
+    margin-bottom: 15px;
+    left: 320px;
+}
+.navbar .navbar-brand{
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #000;
+}
+.navbar .navbar-brand i{
+    position: relative;
+    top: 2px;
+    font-size: 20px;
+}
+.nav-link {
+    cursor: pointer;
+}
+.nav-link i{
+    font-size: 18px;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.navbar-nav .nav-item:last-child{
+    margin-right: 0px;
+}
+.dropdown-toggle:after{
+    display: none;
+}
+.navbar #notificationList{
+    left: -140px;
+}
+.nav-link small{
+    position: absolute;
+    top:2px;
+    left:15px;
+    font-size: 10px;
+    color: #fff;
+    background: #f00;
+    width: 16px;
+    height: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.content{
+    padding:  0px 20px 20px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.cardView{
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    min-height: 500px;
+}
+.cardView .cardHeader{
+    margin-bottom: 10px;
+}
+.cardView .cardHeader strong{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cardView .subHeading{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+}
+.cardView label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tableEmpty svg{
+    color: #ddd;font-size: 60px;margin-top: 20px;display: block;margin: 60px auto 0px;
+}
+.tableEmpty span{
+    color: #bbb;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 320px;
+    right: 0px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.breadcrumb{
+    font-size: 12px;
+}
+.breadcrumb li:last-child:after{
+    content: "";
+}
+.breadcrumb li:after{
+    content: "/";
+    padding: 0px 5px;
+}
+.breadcrumb i{
+    font-size: 12px;
+}
+
+.containerDiv{
+    padding-top: 15px;
+    background: #fff;
+    margin: 0px;
+    min-height: 400px;
+    padding: 15px;
+}
+.containerHeader h3{
+    font-size: 20px;
+    margin: 0px 0px 10px 12px;
+    font-weight: 500;
+    float: left;
+    font-weight: normal;
+}
+.containerHeader .nav{
+    float: right;
+    font-size: 12px;
+}
+.content-wrapper .nav button, .content-wrapper .nav a{
+    font-size: 10px;
+    padding: 5px 10px;
+    height: 25px;
+    margin-right: 10px;
+}
+.content-wrapper .nav button:last-child{
+    margin-right: 0px;
+}
+.content-wrapper .nav i.material-icons{
+    font-size: 14px;
+}
+.breadcrumb a{
+    color: #002d55;
+}
+.breadcrumb li.active{
+    color: #b1b1b1;
+}
+.table{
+    font-size: 14px;
+}
+ul.tree:before {
+    content: "";
+    opacity: 0.1;
+    top: 158px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    }
+
+.checkbox label, .radio label, label{
+    font-size: 0.8em;
+    color: #999;
+}
+*:focus {
+    outline: none !important;
+}

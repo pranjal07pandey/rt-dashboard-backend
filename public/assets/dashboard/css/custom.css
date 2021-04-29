@@ -1,0 +1,1036 @@
+/* dashboard css */
+.content-wrapper, .right-side{
+    background-color: #F3F5F9;
+}
+.navbar-static-top{
+    box-shadow: 0px 0px 5px #424242;
+}
+.contentWrapper{
+    margin-bottom: 20px;
+}
+.themeSecondaryBg{
+    background-color: #0c3455 !important;
+    color:#fff !important;
+}
+
+.content-header h1{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+a, a:focus, a:hover{
+    color: #012e55;
+}
+.themePrimaryBg{
+    background-color: #15b1b8 !important;
+    color: #fff;
+}
+
+.sideMenu {
+    margin-bottom: 30px;
+}
+
+.sideMenu .menuHeader{
+    border-bottom: 1px solid #ddd;
+    background: #f1efef;
+}
+
+.sideMenu .menuHeader h3{
+    padding: 15px 20px;
+    margin: 0px;
+    color:#0c3455;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:bold;
+}
+.sideMenu .menuHeader h3.active{
+    background-color: #1BAFBA;
+    color:#fff;
+}
+
+.sideMenu .menuHeader a{
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sideMenu .menuContent{
+    background: #f9f8f8;
+    padding: 10px 10px;
+}
+button{
+    text-transform: none !important;
+}
+.subBtn{
+    text-transform: none;
+    padding: 5px 10px;
+    margin-top: 0px;
+}
+
+.contentHeader{
+    border-bottom: 1px solid #ddd;
+}
+
+.contentHeader h4{
+    font-weight: 500;
+}
+
+.menuContent strong{
+    display: block;
+}
+
+
+.menuContent .checkbox, .menuContent .radio{
+    margin-top: 0px;
+    margin-bottom : 0px;
+}
+
+.checkbox .checkbox-material, label.checkbox-inline .checkbox-material{
+    top: 0px;
+}
+
+.docketBtnList button{
+    text-align: left;
+}
+
+.docketBtnList button span{
+    color: #aaa;
+}
+
+.docketTemplateUserAccess{
+    margin-top:20px;
+}
+.docketTemplateUserAccess span{
+    display: inline-block;
+    margin-right: 20px;
+}
+.docketTemplateUserAccess span:first-child{
+    color: #999;
+}
+
+.horizontalList{
+    background-color: #fafafa;
+    padding: 15px 0px 15px 15px;
+    margin: 10px 0px 10px;
+    cursor: move;
+    box-shadow: 1px 1px 0px #ddd;
+}
+.horizontalList span{
+    display: inline-block;
+}
+
+.horizontalList>span:first-child{
+    min-width:100px;
+}
+.horizontalList span:first-child{
+    color: #999;
+    display: block;
+}
+
+.horizontalList .form-group{
+    min-width: 200px;
+    width: 98%;
+    margin-top: 15px;
+}
+
+
+.horizontalMenuList td{
+    padding: 0px 20px 10px 0px;
+}
+.horizontalMenuList tr>td:first-child span{
+    color: #999;
+    margin-top: -15px;
+    float: left;
+}
+.horizontalMenuList td span:first-child{
+    margin-right:20px;
+}
+.horizontalMenuList td:last-child{
+    margin-right:0px;
+}
+.horizontalMenuList td .checkbox{
+    float: right;
+    margin-top: 0px;
+}
+.horizontalMenuTab {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background: #ddd;
+}
+.horizontalMenuTab li{
+    display: inline-block;
+    padding: 0px;
+}
+.horizontalMenuTab li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.horizontalMenuTab li a:hover{
+    text-decoration: none;
+    background: #dadada;
+}
+.horizontalMenuTab li.active a{
+    background: #15b1b8;
+    color: #fff;
+}
+.horizontalMenuTab li.active a:hover{
+    background: #003d6f;
+}
+.deleteDocketComponent{
+    background: none !important;
+    color: red !important;
+    box-shadow: none !important;
+    border: none !important;
+    font-size: 16px !important;
+
+
+    margin: 0px !important;
+}
+
+.profilePicContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px auto 10px;
+    background: #ddd;
+}
+.profilePicContainer i{
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    line-height: 1.4;
+    color: #6cbec3;
+}
+.popover{
+    background: none;
+    box-shadow: 0px 0px 0px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.popover-title{
+    background-color: #6cbec3;
+    border-radius: 3px 3px 0 0;
+    color: #000;
+    font-weight: 500;
+    padding: 13px 15px;
+}
+.popover-content{
+    background: #fff;
+}
+
+.popover-content .control-group{
+    margin: 0px;
+}
+.editable-submit,.editable-submit:hover{
+    color: #fff !important;
+    background-color: #0c3455 !important;
+}
+
+.editable{
+    color: #000000;
+}
+
+.elementAddingDiv{
+    margin: 0px 0px 0px;
+    background: #f9f8f8;
+    padding: 0px 0px;
+}
+.elementAddingDiv ul{
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.elementAddingDiv ul li{
+    list-style: none;
+    float: left;
+    margin-bottom: 20px;
+    width: calc( 50% - 10px);
+    margin-right: 10px;
+}
+
+.elementAddingDiv ul li i{
+    margin-right: 5px;
+}
+.elementAddingDiv ul li a{
+    margin: 0px;
+}
+
+.modal-content .modal-header{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.modal-content .close{
+    color: #fff;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover{
+    font-weight:400;
+}
+
+/*---------------------data table modification-------------------*/
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    line-height:2em;
+}
+.dataTable span{
+    display: block;
+}
+.dataTable p{
+    font-size: 12px;
+    display: block;
+}
+.dataTable .label {
+    min-width: 60px;
+    font-size: 10px !important;
+    padding: 5px 0px;
+    border-radius: 3px;
+    line-height: 1em;
+    margin-top: 4px;
+}
+.dataTables_length{
+    float:left;
+}
+.dataTables_filter{
+    float:right;
+}
+.dataTables_filter input{
+    margin-left: 15px;
+}
+.dataTables_info{
+    float:left;
+}
+.dataTables_paginate{
+    float:right;
+    margin-bottom: 20px;
+}
+.dataTables_paginate .current{
+    background: #03a9f4;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.paginate_button{
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none !important;
+}
+.paginate_button:hover{
+    text-decoration: none;
+}
+
+/*---------------------search list ------------------------*/
+
+.searchResult ul{
+    padding: 0px;
+    margin: 10px 0px 0px;
+    list-style: none;
+}
+.searchResult ul li{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.searchResult .companyProfileImage{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    background-color: #eee;
+}
+.searchResult .companyProfileImage img{
+    width: 100%;
+}
+.searchResult .companyDetails h3{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.searchResult li input{
+    margin-right: 25px;
+}
+
+.dotted{
+    border-bottom: 1px dashed #999;
+}
+.navbar .navbar-nav .dropdown .dropdown-toggle:after{
+    display: none;
+}
+
+.popover.top {
+    margin-top: 10px;
+}
+.sorting, .sorting_desc, .sorting_asc{
+    cursor: pointer;
+}
+.sorting:hover, .sorting_desc:hover, .sorting_asc:hover{
+    text-decoration: underline;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url(https://datatables.net/media/images/sort_asc.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+table.dataTable thead .sorting {
+    background-image: url(https://datatables.net/media/images/sort_both.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+table.dataTable thead .sorting_desc {
+    background-image: url(https://datatables.net/media/images/sort_desc.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    
+    .navbar-static-top{
+        box-shadow: 0px 0px 5px #424242;
+    }
+    .contentWrapper{
+        margin-bottom: 20px;
+    }
+    .themeSecondaryBg{
+        background-color: #0c3455 !important;
+        color:#fff !important;
+    }
+
+    .content-header h1{
+        color: #012e55;
+    }
+
+    a, a:focus, a:hover{
+        color: #012e55;
+    }
+    .themePrimaryBg{
+        background-color: #15b1b8 !important;
+        color: #fff;
+    }
+
+    .sideMenu {
+        margin-bottom: 30px;
+    }
+
+    .sideMenu .menuHeader{
+        border-bottom: 1px solid #ddd;
+        background: #f1efef;
+    }
+
+    .sideMenu .menuHeader h3{
+        padding: 15px 20px;
+        margin: 0px;
+        color:#0c3455;
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight:bold;
+    }
+    .sideMenu .menuHeader h3.active{
+        background-color: #1BAFBA;
+        color:#fff;
+    }
+
+    .sideMenu .menuHeader a{
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .sideMenu .menuContent{
+        background: #f9f8f8;
+        padding: 10px 10px;
+    }
+    button{
+        text-transform: none !important;
+    }
+    .subBtn{
+        text-transform: none;
+        padding: 5px 10px;
+        margin-top: 0px;
+    }
+
+    .contentHeader{
+        border-bottom: 1px solid #ddd;
+    }
+
+    .contentHeader h4{
+        font-weight: 500;
+    }
+
+    .menuContent strong{
+        display: block;
+    }
+
+
+    .menuContent .checkbox, .menuContent .radio{
+        margin-top: 0px;
+        margin-bottom : 0px;
+    }
+
+    .checkbox .checkbox-material, label.checkbox-inline .checkbox-material{
+        top: 0px;
+    }
+
+    .docketBtnList button{
+        text-align: left;
+    }
+
+    .docketBtnList button span{
+        color: #aaa;
+    }
+
+    .docketTemplateUserAccess{
+        margin-top:20px;
+    }
+    .docketTemplateUserAccess span{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .docketTemplateUserAccess span:first-child{
+        color: #999;
+    }
+
+    .horizontalList{
+        background-color: #fafafa;
+        padding: 15px 0px 15px 15px;
+        margin: 10px 0px 10px;
+        cursor: move;
+        box-shadow: 1px 1px 0px #ddd;
+    }
+    .horizontalList span{
+        display: inline-block;
+    }
+
+    .horizontalList>span:first-child{
+        min-width:100px;
+    }
+    .horizontalList span:first-child{
+        color: #999;
+        display: block;
+    }
+
+
+
+    .horizontalMenuList td{
+        padding: 0px 20px 10px 0px;
+    }
+    .horizontalMenuList tr>td:first-child span{
+        color: #999;
+        margin-top: -15px;
+        float: left;
+    }
+    .horizontalMenuList td span:first-child{
+        margin-right:20px;
+    }
+    .horizontalMenuList td:last-child{
+        margin-right:0px;
+    }
+    .horizontalMenuList td .checkbox{
+        float: right;
+        margin-top: 0px;
+    }
+
+    .horizontalMenuTab li{
+        display: inline-block;
+        padding: 0px;
+    }
+    .horizontalMenuTab li a{
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .horizontalMenuTab li a:hover{
+        text-decoration: none;
+        background: #dadada;
+    }
+    .horizontalMenuTab li.active a{
+        background: #15b1b8;
+        color: #fff;
+    }
+    .horizontalMenuTab li.active a:hover{
+        background: #003d6f;
+    }
+    .deleteDocketComponent{
+        background: none !important;
+        color: red !important;
+        box-shadow: none !important;
+        border: none !important;
+        font-size: 16px !important;
+
+
+        margin: 0px !important;
+    }
+
+    .profilePicContainer {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 30px auto 10px;
+        background: #ddd;
+    }
+    .profilePicContainer i{
+        font-size: 100px;
+        text-align: center;
+        display: block;
+        line-height: 1.4;
+        color: #6cbec3;
+    }
+    .popover{
+        background: none;
+        box-shadow: 0px 0px 0px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        padding: 0px;
+    }
+
+    .popover-title{
+        background-color: #6cbec3;
+        border-radius: 3px 3px 0 0;
+        color: #000;
+        font-weight: 500;
+        padding: 13px 15px;
+    }
+    .popover-content{
+        background: #fff;
+    }
+
+    .popover-content .control-group{
+        margin: 0px;
+    }
+    .editable-submit,.editable-submit:hover{
+        color: #fff !important;
+        background-color: #0c3455 !important;
+    }
+
+    .editable{
+        color: #000000;
+    }
+
+    .elementAddingDiv{
+        margin: 0px 0px 0px;
+        background: #f9f8f8;
+        padding: 0px 0px;
+    }
+    .elementAddingDiv ul{
+        margin: 0px;
+        padding: 0px;
+        height: 25px;
+        margin-top: 5px;
+    }
+
+    .elementAddingDiv ul li{
+        list-style: none;
+        float: left;
+        margin-bottom: 20px;
+        width: calc( 50% - 10px);
+        margin-right: 10px;
+    }
+
+    .elementAddingDiv ul li i{
+        margin-right: 5px;
+    }
+    .elementAddingDiv ul li a{
+        margin: 0px;
+    }
+
+    .modal-content .modal-header{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .modal-content .close{
+        color: #fff;
+    }
+
+    .editable-click, a.editable-click, a.editable-click:hover{
+        font-weight:bold;
+    }
+
+    /*---------------------data table modification-------------------*/
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        line-height:2em;
+    }
+    .dataTable span{
+        display: block;
+    }
+    .dataTable p{
+        font-size: 12px;
+        display: block;
+    }
+    .dataTable .label {
+        width: 60px;
+        font-size: 10px !important;
+        padding: 5px 0px;
+        border-radius: 3px;
+        line-height: 1em;
+        margin-top: 4px;
+    }
+    .dataTables_length{
+        float:left;
+    }
+    .dataTables_filter{
+        float:right;
+    }
+    .dataTables_filter input{
+        margin-left: 15px;
+    }
+    .dataTables_info{
+        float:left;
+    }
+    .dataTables_paginate{
+        float:right;
+        margin-bottom: 20px;
+    }
+    .dataTables_paginate .current{
+        background: #03a9f4;
+        color: #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .paginate_button{
+        padding: 5px 10px;
+        text-decoration: none;
+        cursor: pointer;
+        outline: none !important;
+    }
+    .paginate_button:hover{
+        text-decoration: none;
+    }
+
+    /*---------------------search list ------------------------*/
+    .searchResult{
+        max-height: 500px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .searchResult ul{
+        padding: 0px;
+        margin: 10px 0px 0px;
+        list-style: none;
+    }
+    .searchResult ul li{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px dotted #ddd;
+    }
+
+    .searchResult .companyProfileImage{
+        width: 100px;
+        height: 100px;
+        margin-right: 15px;
+        background-color: #eee;
+    }
+    .searchResult .companyProfileImage img{
+        width: 100%;
+    }
+    .searchResult .companyDetails h3{
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .searchResult li input{
+        margin-right: 25px;
+    }
+
+    .dotted{
+        border-bottom: 1px dashed #999;
+    }
+    .navbar .navbar-nav .dropdown .dropdown-toggle:after{
+        display: none;
+    }
+
+    .popover.top {
+        margin-top: 10px;
+    }
+    .sorting, .sorting_desc, .sorting_asc{
+        cursor: pointer;
+    }
+    .sorting:hover, .sorting_desc:hover, .sorting_asc:hover{
+        text-decoration: underline;
+    }
+
+    table.dataTable thead .sorting_asc {
+        background-image: url(https://datatables.net/media/images/sort_asc.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 50%;
+    }
+    table.dataTable thead .sorting {
+        background-image: url(https://datatables.net/media/images/sort_both.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 50%;
+    }
+    table.dataTable thead .sorting_desc {
+        background-image: url(https://datatables.net/media/images/sort_desc.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 50%;
+    }
+    @media (max-width: 1200px) {
+        .navbar-header {
+            float: none;
+        }
+        .navbar-left,.navbar-right {
+            float: none !important;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-fixed-top {
+            top: 0;
+            border-width: 0 0 1px;
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            margin-top: 7.5px;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .collapse.in{
+            display:block !important;
+        }
+        .navbar .dropdown-menu li>a, .navbar.navbar-default .dropdown-menu li>a{
+            color: #002f55;
+        }
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar .dropdown-menu li>a, .navbar.navbar-default .dropdown-menu li>a{
+        color: #002f55;
+    }
+
+/**
+* The CSS shown here will not be introduced in the Quickstart guide, but shows
+* how you can use CSS to style your Element's container.
+*/
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+.ui-tooltip{
+    display: none;
+}
+
+.card-list{
+    margin: 0px;
+    padding: 0px;
+}
+.card-list li {
+    display: inline-block;
+    margin: 0px 15px 0px 0px;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+
+#searchInput{
+    padding: 5px;
+    font-size: 14px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #BDBDBD;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #BDBDBD;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #BDBDBD;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #BDBDBD;
+}
+.cke_chrome{
+    border:none !important;
+}
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
+
+/* Charts */
+.containerDiv{
+    padding-top: 15px;
+    background: #fff;
+    margin: 0px;
+    min-height: 400px;
+    padding: 15px;
+}
+}
+
+#app label{
+    color:#000;
+}
+.docketFieldTempelete .checkbox_label label{
+    margin-right: 20px !important;
+}
+
+.signaturePadAppend .signaturePadImg{
+    width:100px;
+    border:1px solid;
+    margin: 2px;
+}
+
+.sketchPadAppend .sketchPadImg{
+    width:100px;
+    border:1px solid;
+    margin: 2px;
+}
+
+span.error{
+    color:#f44336;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 6px;   
+    border: 1px solid #d5d5d5;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .pipcontent .pip{
+      padding:5px;
+  }
+
+  .pipcontent .pip img{
+    width:100px;
+    height:100px
+  }
+
+  .pipcontent .pip span{
+    background: #d81919;
+    cursor: pointer;
+    position: absolute;
+    color:white;
+  }
+
+  .float-right{
+      float: right;
+  }
+
+  .input-form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.templateFieldBg{
+    background-color: #efecea;
+    padding: 15px 0px 15px 15px;
+    margin: 10px 0px 10px;
+    cursor: move;
+    box-shadow: 1px 1px 0px #ddd;
+}
+
+.assignDocketClose{
+    position: absolute;
+    right: 30px;
+    color: red;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.workView .workViewImg {
+    z-index: 2;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    border-radius: 30%;
+    top:0;
+    object-fit: cover;
+}

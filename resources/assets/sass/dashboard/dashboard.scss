@@ -1,0 +1,162 @@
+.rt-content-header{
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+
+  h1{
+    float:left;
+  }
+
+  .breadcrumb{
+    top: 0px;
+    right: 0px;
+    padding: 7px 0px;
+  }
+}
+
+//--rt-modal--//
+.rt-modal{
+  .close{
+    opacity: 0.8;
+    margin-top: 0px;
+  }
+  .flash-message{
+    display: none;
+    .alert {
+      padding: 10px 15px;
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
+}
+
+.company-summary-widget{
+
+  .rtSmallBox {
+    background: #fff;
+    width: 100%;
+    min-height: 135px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+  .rtSmallBox .inner {
+    padding: 20px;
+    border-bottom: 1px solid #f3f5f9;
+  }
+  .rtSmallBox .inner .title {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #636b6f;
+  }
+  .rtSmallBox .inner .counter {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+    display: block;
+  }
+  .rtSmallBox small{
+    display: block;
+    text-align: center;
+    color: #9b9b9b;
+    margin-top: 5px;
+  }
+  .rtSmallBox .smallBoxfooter {
+    border-top: 1px solid #f3f5f9;
+    display: block;
+    text-align: center;
+    padding: 5px 0px;
+    color: #9b9b9b;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .smallBoxfooter:hover, .smallBoxfooter:active, .smallBoxfooter:visited, .smallBoxfooter:focus{
+    text-decoration: none;
+  }
+  .rtSmallBox .icon {
+    position: absolute;
+    background: #05668d;
+    right: 20px;
+    top: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .rtSmallBox .icon i {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 28px;
+    line-height: 2.2em;
+  }
+  .rtSmallBox #invoiceIcon {
+    background: #fa6340;
+  }
+  .rtSmallBox #clientRequestIcon {
+    background: #10cdef;
+  }
+  .rtSmallBox #employeeIcon {
+    background: #15b1b8;
+  }
+}
+
+.rtDataTable{
+  .cancelled{
+    background: #f3f3f3;
+    font-style: italic;
+  }
+  .docket-label-container, .invoice-label-container{
+    height: 30px;
+    margin-top: 15px;
+    .item-wrapper{
+      position: absolute;
+      ul{
+        list-style-type: none;
+        marign: 0px;
+        padding: 0px;
+        li{
+          display: inline-block;
+          color: #fff;
+          font-size: 10px;
+          padding: 3px 25px 3px 10px;
+          -webkit-border-radius: 15px;
+          -moz-border-radius: 15px;
+          border-radius: 15px;
+          position: relative;
+          button{
+            padding: 0px;
+            height: 14px;
+            border-radius: 50%;
+            width: 14px;
+            margin: 0px;
+            position: absolute;
+            right: 4px;
+            top: 3px;
+            font-size: 8px;
+            opacity: 0.6;
+            transition: 0.2s;
+            &:hover{
+              opacity: 1;
+              transition: 0.2s;
+              span{
+                color: #000;
+              }
+            }
+            span{
+              color: #666;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sent-docket-preview{
+    padding: 5px 10px;
+    background: #fafafa;
+    border: 1px dotted #ddd;
+    line-height: 1.5em;
+    font-size: 12px;
+  }
+}

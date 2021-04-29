@@ -1,0 +1,146 @@
+.rtTab{
+    background: #fff;
+    margin-bottom: 20px;
+}
+.rtTab .rtTabHeader{
+
+}
+.rtTab .rtTabHeader ul{
+    list-style-type: none;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rtTabHeader ul li{
+    display: inline-block;
+}
+.rtTabHeader ul li.active{
+    color: #000;
+    border-bottom: 2px solid #15B1B8;
+}
+.rtTabHeader ul li a{
+    color: inherit;
+    padding: 18px 30px;
+    display: block;
+    text-decoration: none;
+}
+.rtTabHeader ul li a:hover{
+    color: #000;
+}
+.rtTabHeader ul li.advacedFilter{
+    float: right;
+}
+.rtTabHeader ul li.advacedFilter i{
+    font-size: 20px;
+}
+.rtTabHeader ul li.advacedFilter a{
+    color: #15B1B8;
+    padding-right:15px;
+}
+.tableHeaderMenu{
+    background: #FBFBFB;
+    min-height: 66px;
+    width: 100%;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    color: #797979;
+    font-weight: normal;
+}
+.tableHeaderMenu ul{
+    list-style-type: none;
+    margin: 3px 0px;
+    padding: 0px;
+}
+.tableHeaderMenu ul li{
+    padding: 15px 5px 0px 15px;
+    display: inline-block;
+}
+.tableHeaderMenu .rtMenuBtn{
+    background:none;
+    border: 1px solid #15B1B8;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 13px;
+    padding: 0px 15px;
+    color: #797979;
+}
+.tableHeaderMenu .rtMenuBtn:hover{
+    color: #000;
+}
+.rtDataTable{
+    width: 100%;
+}
+.rtDataTable th{
+    padding: 16px;
+    color: #000;
+    font-weight: 500;
+    background: #F7F7F7;
+    border-bottom: 1px solid #EEEEEE;
+}
+.rtDataTable td{
+    padding: 16px;
+    border-bottom: 1px solid #EEEEEE;
+    color: #000;
+    vertical-align: top;
+}
+.rtDataTable td .btn{
+    margin-top: 0px;
+}
+.rtDataTable td .label{
+    border-radius: 10px;
+    padding: 4px 15px;
+    font-size: 10.5px;
+}
+.rtDataTable td span.invoiceAmount{
+    font-weight: bold;
+    color: #EF9500;
+}
+.rtDataTable td .userInfo{
+    color: #15B1B8;
+    display: block;
+    font-weight: normal;
+}
+.rtDataTable td .blackLabel{
+    color: #000;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 5px;
+}
+.rtDataTable tfoot td{
+    border-bottom: none;
+    color: #787878;
+    font-weight: normal;
+}
+.rtTabContent{
+}
+.rtMenuSearch{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    margin-top: -2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rtDataTable .pagination{
+    margin: 0px;
+    font-weight: normal;
+}
+.rtDataTable .pagination>li:first-child>a, .rtDataTable .pagination>li:first-child>span{
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.rtDataTable .pagination>li:last-child>a, .rtDataTable .pagination>li:last-child>span{
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.rtDataTable .pagination>.active>a, .rtDataTable .pagination>.active>a:focus, .rtDataTable .pagination>.active>a:hover, .rtDataTable .pagination>.active>span, .rtDataTable .pagination>.active>span:focus, .rtDataTable .pagination>.active>span:hover{
+    background: #15B1B8;
+    color: #fff;
+}
+.rtDataTable .pagination>li>a, .rtDataTable .pagination>li>span{
+    color: #787878;
+}

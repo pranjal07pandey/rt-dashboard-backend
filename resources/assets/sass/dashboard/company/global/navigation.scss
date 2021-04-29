@@ -1,0 +1,86 @@
+.rtNavBar .navbar,
+.navbar.navbar-default {
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+.rtNavbar {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+}
+.rtNavBar .nav li.active::before {
+  content: "";
+  width: 15px;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #dedfe3;
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 15px);
+}
+
+.twoLinesWrapper {
+  height: 60px;
+  overflow: hidden;
+  position: absolute;
+  width: 375px;
+}
+.topNavRight {
+  height: 60px;
+  background: #022e55;
+  left: 300px;
+  right: 0px;
+  position: absolute;
+}
+.topNavRight .user-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  margin-right: 5px;
+  margin-top: -3px;
+  border: 1px solid #ffffff;
+}
+.twoLines {
+  margin-left: 300px;
+}
+.twoLines:before {
+  content: " ";
+  background-color: #15b1b8;
+  position: relative;
+  left: -6px;
+  top: -70px;
+  display: inline-block;
+  height: 200px;
+  width: 35px;
+  -webkit-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+}
+.twoLines:after {
+  content: " ";
+  background-color: #aadfe3;
+  position: relative;
+  left: -90px;
+  top: -70px;
+  display: inline-block;
+  height: 200px;
+  width: 35px;
+  -webkit-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  z-index: 2;
+}
+.rtNavbar .topNavbar {
+  background: #022e55;
+}
+.rtNavbar .topNavbar::after {
+  background: #fff;
+  position: absolute;
+  content: " ";
+  width: 20%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+}

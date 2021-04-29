@@ -1,0 +1,35 @@
+.primaryBackgroundColor{
+    background: #002d56;
+}
+.lightPrimaryBackgroundColor{
+    background: #003664;
+}
+.primaryTextColor{
+    color: #002d56;
+}
+.secondaryBackgroundColor{
+    background: #00b1b9 !important;
+}
+.label.label-success {
+    background-color: #4caf50;
+}
+.label {
+    border-radius: 1px;
+    padding: .3em .6em;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label.label-danger {
+    background-color: #f44336;
+}

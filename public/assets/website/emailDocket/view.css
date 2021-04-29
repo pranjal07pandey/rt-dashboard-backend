@@ -1,0 +1,41 @@
+body{
+    background: #fafafa;
+    line-height: 1.8em;
+}
+
+.preview-header{
+    background: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    padding: 20px;
+}
+.preview-header img{
+    max-width: 100px;
+}
+
+.preview{
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px #ddd;
+    margin: 20px 0px;
+    padding: 20px;
+}
+.preview .company-logo{
+    margin-bottom: 10px;
+}
+.preview .docket-body{
+    margin-top: 20px;
+    padding: 15px;
+}
+.docket-body .pdf{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.docket-body .pdf li{
+    margin-right: 15px;
+}
+.docket-body .pdf li img{
+    height: 20px;
+    margin-top: -4px;
+    margin-right: 5px;
+}

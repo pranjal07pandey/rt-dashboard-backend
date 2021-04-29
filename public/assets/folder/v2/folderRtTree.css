@@ -1,0 +1,164 @@
+/*sidebar css*/
+.sidebarBox{
+    background: #fff;
+    margin: 3px 0px;
+    display: block;
+    clear: both;
+}
+.sidebarBox .boxHeader{
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.sidebarBox .boxHeader strong{
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+}
+.boxHeader a{
+    margin-left: 10px;
+}
+.boxHeader i{
+    font-size: 20px;
+    color: #15B1B8;
+}
+.boxContent{
+    padding: 0px;
+    min-height: 212px;
+}
+.boxContent .directoryEmpty{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #999;
+}
+.boxContent .directoryEmpty i{
+    font-size: 12px;
+    color: #15B1B8;
+}
+
+/*rtTree css*/
+.folderRtTree{
+    margin: 5px 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.folderRtTree ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+.folderRtTree li{
+    padding-left: 0px;
+    position: relative;
+}
+.folderRtTree li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    padding-left: 52px;
+    color: #000;
+}
+.folderRtTree a:link, .folderRtTree a:visited {
+    text-decoration: none;
+}
+.folderRtTree li a:hover{
+    background: #f7f7f7;
+}
+.folderRtTree li a.active{
+    background-color: #f7f7f7;
+    border-radius: 0 16px 16px 0;
+    text-decoration: none;
+}
+.folderRtTree li a::before{
+    content: "folder";
+    font-family: 'Material Icons';
+    color: #EFCE4A;
+    font-size: 20px;
+    left: 25px;
+    top: -1px;
+    position: absolute;
+}
+.folderRtTree li a.active::before{
+    content: "folder_open";
+}
+
+/*.rtTree li:hover::before{*/
+/*content: "arrow_right";*/
+/*font-family: 'Material Icons';*/
+/*position: absolute;*/
+/*top:0px;*/
+/*right:0px;*/
+/*width:20px;*/
+/*height:  20px;*/
+/*background: red;*/
+/*cursor: pointer;*/
+/*}*/
+.folderRtTree li:hover>a{
+    /*background-color: #f7f7f7;*/
+    border-radius: 0 16px 16px 0;
+
+}
+
+.folderRtTree li a::after{
+    content: "arrow_right";
+    font-family: 'Material Icons';
+    color: #ccc;
+    font-size: 20px;
+    left: 5px;
+    top: 0px;
+    position: absolute;
+}
+.folderRtTree li a.active::after{
+    transform: rotate(45deg);
+}
+.folderRtTree li:hover>a, .folderRtTree a:active{
+    /*background-color: #f7f7f7;*/
+    border-radius: 0 16px 16px 0;
+    text-decoration: none;
+}
+
+.editBtn:hover::before{
+    content: "more_vert";
+    font-family: 'Material Icons';
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    font-size: 22px;
+}
+.editBtn:hover{
+    background: #efefef;
+}
+.editBtnHover{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 15px;
+    height: 30px;
+    width: 31px;
+    cursor: pointer;
+    background: #efefef;
+}
+.editBtnHover::before{
+    content: "more_vert";
+    font-family: 'Material Icons';
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    font-size: 22px;
+}
+.folder-div{
+    background: rgb(255, 255, 255);
+    min-height: 70px;
+    position: absolute;
+    left: 8px;
+    width: 150px;
+    top: 21px;
+    padding-top: 5px;
+    z-index: 2147483000;
+    border-radius: 7px;
+    box-shadow: rgb(210, 207, 207) 0px 2px 2px 0px, rgb(210, 207, 207) 0px 3px 1px -2px, rgb(210, 207, 207) 0px 1px 5px 0px;
+    padding-bottom: 5px;
+}
+.divList li button:hover{
+    background: #f1f2f5;
+}

@@ -1,0 +1,64 @@
+.sw-main .active small{
+    color: #000;
+}
+.sw-theme-dots > ul.step-anchor{
+    z-index: 0 !important;
+}
+.sw-theme-dots > ul.step-anchor:before{
+    top: 50px !important;
+    z-index: 0 !important;
+}
+.sw-theme-dots > ul.step-anchor > li > a:after{
+    left: 42% !important;
+}
+.sw-theme-dots .step-content {
+    padding: 10px 20px !important;
+}
+.sw-main .multiselect-selected-text{
+    padding-left: 20px;
+}
+.sw-theme-dots .sw-container{
+}
+.multipleInvoiceField input{
+    padding-left: 15px;
+}
+.signatureList{
+    margin-bottom: 20px;
+}
+.signatureList .item{
+    width: 150px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    position: relative;
+}
+.signatureList .item img{
+    width: 100%;
+}
+.signatureList .item:last-child{
+    margin-right: 0px;
+}
+.signatureList .item a{
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: red;
+    display: none;
+}
+.signatureList .item:hover a{
+    display: block;
+}
+.signature-pad{
+    border: 1px dashed #000;
+    margin-bottom: 5px;
+}
+.saveSignature, .saveSignature:hover{
+    background: #0d3453;
+    color: #fff !important;
+}
+
+.btn.disabled{
+    color: rgba(0,0,0,.26) !important;
+
+}

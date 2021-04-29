@@ -1,0 +1,95 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.3.8",
+        "5dmatwebsearch/advancesearch": "dev-master",
+        "aporat/store-receipt-validator": "^3.2",
+        "barryvdh/laravel-dompdf": "^0.8.2",
+        "basecrm/basecrm-php": "^1.4",
+        "beyondcode/laravel-websockets": "^1.1",
+        "calcinai/xero-php": "^1.8",
+        "chumper/zipper": "1.0.x",
+        "dlimars/laravel-searchable": "^1.1",
+        "doctrine/dbal": "2.12.1",
+        "fideloper/proxy": "~4.0",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "~6.3",
+        "illuminate/support": "5.7.*",
+        "intervention/image": "^2.4",
+        "laracasts/flash": "^2.0",
+        "laravel/framework": "5.7.*",
+        "laravel/passport": "^7.5.1",
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "5.7.*",
+        "lcobucci/jwt": "3.3.*",
+        "league/container": "^3.2",
+        "league/csv": "^9.1",
+        "league/flysystem-aws-s3-v3": "~1.0",
+        "league/plates": "^3.3",
+        "nesbot/carbon": "~1.21",
+        "overint/php-mailgun-validation": "^1.0",
+        "predis/predis": "^1.1",
+        "pusher/pusher-php-server": "~3.0",
+        "react/socket": "^1.0",
+        "shuchkin/simplexlsx": "^0.8.19",
+        "soapbox/laravel-formatter": "^3.1",
+        "spatie/db-dumper": "^2.18",
+        "spatie/laravel-directory-cleanup": "^1.2",
+        "spatie/pdf-to-text": "^1.1",
+        "stripe/stripe-php": "^5.8",
+        "symfony/psr-http-message-bridge": "^1.1",
+        "yoeunes/toastr": "^1.2",
+        "zendframework/zend-diactoros": "^1.8"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "nunomaduro/larastan": "^0.4.3",
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["app/Helpers/functions.php","app/Helpers/V2/constant.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

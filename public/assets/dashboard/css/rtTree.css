@@ -1,0 +1,90 @@
+/*sidebar css*/
+.sidebarBox{
+  background: #fff;
+  margin: 20px 0px;
+  display: block;
+  clear: both;
+}
+.sidebarBox .boxHeader{
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+}
+.sidebarBox .boxHeader strong{
+   color: #333333;
+   font-weight: 500;
+   font-size: 16px;
+}
+.boxHeader a{
+  margin-left: 10px;
+}
+.boxHeader i{
+  font-size: 20px;
+  color: #15B1B8;
+}
+.boxContent{
+   padding: 0px;
+   min-height: 200px;
+}
+.boxContent .directoryEmpty{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+}
+.boxContent .directoryEmpty i{
+font-size: 12px;
+color: #15B1B8;
+}
+
+/*rtTree css*/
+.rtTree{
+  margin: 5px 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.rtTree ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding-left: 0px;
+}
+.rtTree li{
+  padding-left: 0px;
+  position: relative;
+}
+.rtTree li a{
+   padding-top: 5px;
+   padding-bottom: 5px;
+   display: block;
+   padding-left: 52px;
+   color: #000;
+}
+.rtTree a:link, .rtTree a:visited, .rtTree a:hover, .rtTree a:active {
+  text-decoration: none;
+}
+.rtTree li a.active{
+}
+.rtTree li a::before{
+content: "folder";
+font-family: 'Material Icons';
+color: #EFCE4A;
+font-size: 20px;
+left: 25px;
+top: -1px;
+position: absolute;
+}
+.rtTree li a.active::before{
+content: "folder_open";
+}
+
+.rtTree li a::after{
+content: "arrow_right";
+font-family: 'Material Icons';
+color: #ccc;
+font-size: 20px;
+left: 5px;
+top: 0px;
+position: absolute;
+}
+.rtTree li a.active::after{
+transform: rotate(45deg);
+}
