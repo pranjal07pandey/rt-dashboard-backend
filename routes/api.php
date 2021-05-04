@@ -298,3 +298,8 @@ Route::get('docketsCountByMonth/', 'AdminDashboard\DashboardController@docketsCo
 Route::get('invoicesCountByMonth/', 'AdminDashboard\DashboardController@invoicesCountByMonth');
 Route::get('emailDocketsCountByMonth/', 'AdminDashboard\DashboardController@emailDocketsByMonth');
 Route::get('emailInvoicesCountByMonth/', 'AdminDashboard\DashboardController@emailInvoicesByMonth');
+
+
+//docket fields from docket id
+Route::get('docketFieldsFromDocketId/{docket_id}/','AdminDashboard\DashboardController@getDocketFieldsFromDocketId');
+Route::get('docketDetailsFromDocketId/{docket_id}', 'AdminDashboard\DashboardController@getDocketDetailsFromDocketId');

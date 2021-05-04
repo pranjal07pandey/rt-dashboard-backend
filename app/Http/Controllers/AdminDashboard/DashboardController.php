@@ -9,6 +9,7 @@ use App\Company;
 use App\User;
 use App\Employee;
 use App\Docket;
+use App\DocketField;
 use App\Invoice;
 use App\EmailSentDocket;
 use App\EmailSentInvoice;
@@ -136,6 +137,16 @@ class DashboardController extends Controller
     public function getDocketsFromCompanyId($id){
         $dockets = Docket::where('company_id', '=', $id)->get();
         return $dockets;
+    }
+
+    public function getDocketDetailsFromDocketId($id){
+        $docket = Docket::findOrFail($id);
+        return $docket;
+    }
+
+    public function getDocketFieldsFromDocketId($id){
+        $docket_fields = DocketField::where('docket_id', '=', $id)->get();
+        return $docket_fields;
     }
 
     public function getDocketsFromUserId($user_id){
